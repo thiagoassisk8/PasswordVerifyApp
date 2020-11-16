@@ -1,3 +1,4 @@
+
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
@@ -21,11 +22,26 @@ class _PasswordFieldState extends State<PasswordField> {
     if (value.isEmpty) {
       return( 'Digite sua senha');
 
-
     }
 
     if (value.length < 4)
       return ('Curto demais');
+    else
+
+    if (value.length < 8)
+      return ('Senha fraca');
+    else
+
+    if (value.length < 10)
+      return ('Senha media');
+    else
+
+    if (value.length < 12)
+      return ('Senha media');
+    else
+
+    if (value.length > 13)
+      return ('Senha Forte');
     else
       return null;
   }

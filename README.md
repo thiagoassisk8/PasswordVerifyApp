@@ -1,37 +1,35 @@
-# flutter_password_strength
 
-A password strength checker for flutter.
+# Verificador de Segurança de senha
 
-## Features  
-  
- - Linear strength indicator.
- - Customise colors, borders, etc.
+Esse aplicativo tem por objetivo implementar um algoritmo que auxilia o usuário a criar a senha mais segura possivel para o usuário. 
 
-## Screenshot
 
-![](https://media.giphy.com/media/kbuhBEahzQAtifnfSL/giphy.gif)
-
-## Usage
+## Algoritmo
   ```
-    import 'package:flutter_password_strength/flutter_password_strength.dart';
+    double charsetBonus;
+  if (RegExp(r'^[a-z]*$').hasMatch(password)) {
+    charsetBonus = 1.0;
+  } else if (RegExp(r'^[a-z0-9]*$').hasMatch(password)) {
+    charsetBonus = 1.2;
+  } else if (RegExp(r'^[a-zA-Z]*$').hasMatch(password)) {
+    charsetBonus = 1.3;
+  } else if (RegExp(r'^[a-z\-_!?]*$').hasMatch(password)) {
+    charsetBonus = 1.3;
+  } else if (RegExp(r'^[a-zA-Z0-9]*$').hasMatch(password)) {
+    charsetBonus = 1.5;
+  } else {
+    charsetBonus = 1.8;
+  }
 
-    FlutterPasswordStrength(
-      password: _password, 
-      strengthCallback: (strength){
-        debugPrint(strength.toString());
-      }
-    )
+  final logisticFunction = (double x) {
+    return 1.0 / (1.0 + exp(-x));
+  };
+
+  final curve = (double x) {
+    return logisticFunction((x / 3.0) - 4.0);
+  };
+
+  return curve(password.length * charsetBonus);
+}
   ```
 
-### Arguments
-
-| Arguments  | Default  | Type | Description |
-| :------------ |---------------:| :---------------| :-----|
-| password | required | String | Password  |
-| width | null | double | Strength bar width |
-| height | 5 | double | Strength bar height |
-| strengthColors | null | TweenSequence<Color> | `0.0 ~ 0.25 : red, 0.26 ~ 0.5 : yellow, 0.51 ~ 0.75 : blue, 0.76 ~ 1 : green` |
-| backgroundColor | Colors.grey| Color | background for strength bar |
-| radius | 0 | double | Strength bar radius  |
-| duration | 3000 | Duration | Animation duration |
-| strengthCallback | null | `void Function(double strength)` | Strength callback, return between 0 to 1 |

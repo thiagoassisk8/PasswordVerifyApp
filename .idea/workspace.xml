@@ -5,17 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc4895eb-7740-4b9b-82c1-2e531f681b73" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/1ef07ae5ad5f715e5e29650312a187b3/.filecache" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/1ef07ae5ad5f715e5e29650312a187b3/.filecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/1ef07ae5ad5f715e5e29650312a187b3/app.dill" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/1ef07ae5ad5f715e5e29650312a187b3/app.dill" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/flutter_assets/kernel_blob.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/merged_assets/debug/out/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/merged_assets/debug/out/flutter_assets/kernel_blob.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/outputs/apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/outputs/apk/debug/app-debug.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/outputs/flutter-apk/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/outputs/flutter-apk/app-debug.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/outputs/flutter-apk/app.apk" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/outputs/flutter-apk/app.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/outputs/flutter-apk/app.apk.sha1" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/outputs/flutter-apk/app.apk.sha1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/f872507f30e2ff2523f0f1d19160266e.cache.dill.track.dill" beforeDir="false" afterPath="$PROJECT_DIR$/build/f872507f30e2ff2523f0f1d19160266e.cache.dill.track.dill" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/component/password_field.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/component/password_field.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/flutter_password_strength/src/estimate_bruteforce_strength.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/flutter_password_strength/src/estimate_bruteforce_strength.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,22 +52,26 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1248" height="172" key="GridCell.Tab.0.bottom" timestamp="1605539297559">
+    <state x="172" y="227" width="1094" height="541" key="AVDManager" timestamp="1605544788194">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1248" height="172" key="GridCell.Tab.0.bottom/72.27.1294.741/1366.0.1280.1024@72.27.1294.741" timestamp="1605539297559" />
-    <state width="1248" height="172" key="GridCell.Tab.0.center" timestamp="1605539297559">
+    <state x="172" y="227" width="1094" height="541" key="AVDManager/72.27.1294.741/1366.0.1280.1024@72.27.1294.741" timestamp="1605544788194" />
+    <state width="1248" height="172" key="GridCell.Tab.0.bottom" timestamp="1605560477462">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1248" height="172" key="GridCell.Tab.0.center/72.27.1294.741/1366.0.1280.1024@72.27.1294.741" timestamp="1605539297559" />
-    <state width="1248" height="172" key="GridCell.Tab.0.left" timestamp="1605539297559">
+    <state width="1248" height="172" key="GridCell.Tab.0.bottom/72.27.1294.741/1366.0.1280.1024@72.27.1294.741" timestamp="1605560477462" />
+    <state width="1248" height="172" key="GridCell.Tab.0.center" timestamp="1605560477300">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1248" height="172" key="GridCell.Tab.0.left/72.27.1294.741/1366.0.1280.1024@72.27.1294.741" timestamp="1605539297559" />
-    <state width="1248" height="172" key="GridCell.Tab.0.right" timestamp="1605539297559">
+    <state width="1248" height="172" key="GridCell.Tab.0.center/72.27.1294.741/1366.0.1280.1024@72.27.1294.741" timestamp="1605560477281" />
+    <state width="1248" height="172" key="GridCell.Tab.0.left" timestamp="1605560477162">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1248" height="172" key="GridCell.Tab.0.right/72.27.1294.741/1366.0.1280.1024@72.27.1294.741" timestamp="1605539297559" />
+    <state width="1248" height="172" key="GridCell.Tab.0.left/72.27.1294.741/1366.0.1280.1024@72.27.1294.741" timestamp="1605560477162" />
+    <state width="1248" height="172" key="GridCell.Tab.0.right" timestamp="1605560477301">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state width="1248" height="172" key="GridCell.Tab.0.right/72.27.1294.741/1366.0.1280.1024@72.27.1294.741" timestamp="1605560477301" />
     <state x="302" y="143" width="824" height="515" key="IDE.errors.dialog" timestamp="1605539275897">
       <screen x="72" y="27" width="1294" height="741" />
     </state>

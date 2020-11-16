@@ -1,3 +1,4 @@
+
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'password_field.dart';
@@ -15,10 +16,21 @@ class _SignInFormState extends State<SignInForm> {
 
   Widget build(BuildContext context) {
     return Container(
-        padding: const EdgeInsets.symmetric(vertical: 168.0, horizontal: 60.0),
+        padding: const EdgeInsets.symmetric(vertical: 58.0, horizontal: 50.0),
         child: Form(
             key: _formKey,
             child: Column(children: <Widget>[
+              Text("Critérios de força da senha são os seguintes:\n"
+                  "° Mínimo de 10 caracteres \n"
+                  "° Letras maiúsculas\n"
+                  "° Caráter Especial (!@#&*)\n"
+                  "° Numerais (0-9)\n"
+                  "° Letras minúsculas\n",
+                  style: TextStyle(
+                      fontSize: 15.0,
+                      color: Colors.white,
+                      fontWeight: FontWeight.bold
+                  )),
               PasswordField(onChanged: (value) {
                 setState(() {
                   _password = value;
@@ -48,8 +60,9 @@ class _SignInFormState extends State<SignInForm> {
                     height: 30,
                     radius: 10,
                   )),
-            ])));
+            ])
+        )
+
+    );
   }
 }
-
-

@@ -49,8 +49,10 @@ class FlutterPasswordStrength extends StatefulWidget {
     0.51 ~ 0.75 : blue
     0.76 ~ 1 : green
   */
+
   Animatable<Color> get _strengthColors => strengthColors != null
       ? strengthColors
+
       : TweenSequence<Color>(
     [
       TweenSequenceItem(
@@ -311,5 +313,3 @@ class StrengthBarBackground extends CustomPainter {
     return true;
   }
 }
-
-

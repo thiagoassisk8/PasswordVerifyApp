@@ -4,6 +4,7 @@ import 'package:flutter/painting.dart';
 import 'package:flutter/widgets.dart';
 import '../flutter_password_strength/src/estimate_bruteforce_strength.dart';
 
+
 class Testesenha extends StatefulWidget {
   final String password;
 

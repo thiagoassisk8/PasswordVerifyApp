@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\victo\\AndroidStudioProjects\\PasswordVerifyApp\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-si\\values-si.xml",
+            "outputFile": "C:\\Users\\victo\\AndroidStudioProjects\\Mariath\\PasswordVerifyApp\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-si\\values-si.xml",
             "map": [
                 {
                     "source": "C:\\Users\\victo\\.gradle\\caches\\transforms-2\\files-2.1\\3a652ea792423f8e7877aaa28d4707d7\\core-1.1.0\\res\\values-si\\values-si.xml",

@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:sidebar_animation/pages/Info1.dart';
-import './component/sign_in_form.dart';
+import 'package:sidebar_animation/pages/OIoT.dart';
+import 'package:sidebar_animation/pages/TelaInfo.dart';
 
-import 'package:flutter_bloc/flutter_bloc.dart';
+
+
 
 
 void main() => runApp(Testesenha());
@@ -16,7 +17,7 @@ class Testesenha extends StatelessWidget{
       theme: ThemeData(
         scaffoldBackgroundColor: Colors.blue[900],
       ),
-      home: MyHomePage(title: 'Verificador de Senha'),
+      home: MyHomePage(title: 'Informações'),
     );
   }
 }
@@ -36,30 +37,19 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text('Verificador de Senha',textScaleFactor: 1.2, style: TextStyle(color: Colors.white,fontWeight: FontWeight.bold)),
-        centerTitle: true,
-        backgroundColor: Colors.blue[800],
-        leading: GestureDetector(
-          onTap: () {Navigator.push(
-              context,
-              MaterialPageRoute(builder: (context) => Info1()));},
-          child: Icon(
-            Icons.info_outline,
-            size: 36.0,
-            color: Colors.white,
+    appBar: AppBar(
+    title: Text('Informações', textScaleFactor: 1.2,
+    style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold)),
+    centerTitle: true,
+    backgroundColor: Colors.blue[800],
 
-          ),
-        ),
+    ),
+    backgroundColor: Colors.white,
 
-      ),
       body: Center(
-          child: SignInForm()
+          child: Telainf()
       ),
     );
   }
 }
-
-
-
 

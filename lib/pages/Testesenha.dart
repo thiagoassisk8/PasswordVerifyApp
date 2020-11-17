@@ -1,10 +1,38 @@
-
+import 'package:sidebar_animation/component/sign_in_form.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/painting.dart';
 import 'package:flutter/widgets.dart';
 import '../flutter_password_strength/src/estimate_bruteforce_strength.dart';
 
+class Validador extends StatelessWidget  {
+  String _password;
 
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('Verificador de Senha',textScaleFactor: 1.2, style: TextStyle(color: Colors.white,fontWeight: FontWeight.bold)),
+        centerTitle: true,
+        backgroundColor: Colors.blue[800],
+     /*   leading: GestureDetector(
+          onTap: () {Navigator.push(
+              context,
+              MaterialPageRoute(builder: (context) =>TelaInfo()));},
+          child: Icon(
+            Icons.info_outline,
+            size: 36.0,
+            color: Colors.white,
+
+          ),
+        ),*/
+
+      ),
+      body: Center(
+          child: SignInForm()
+      ),
+    );
+  }
+}
 class Testesenha extends StatefulWidget {
   final String password;
 

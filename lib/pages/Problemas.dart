@@ -22,7 +22,7 @@ class Problemas extends StatefulWidget {
 }
 
 class _HomePageState extends State<Problemas> {
-  String url = "file:///C:/Users/vitod/AndroidStudioProjects/PasswordVerifyApp/assets/Problemas.pdf";
+  String url = "https://drive.google.com/file/d/1kXK5nxGky056IXJcMytfwIBcFuxeHnr8/view";
   String pdfasset = "assets/Problemas.pdf";
   PDFDocument _doc;
   bool _loading;
@@ -37,7 +37,7 @@ class _HomePageState extends State<Problemas> {
     setState(() {
       _loading = true;
     });
-    final doc = await PDFDocument.fromURL(url);
+    final doc = await PDFDocument.fromAsset(pdfasset);
     setState(() {
       _doc=doc;
       _loading = false;

@@ -22,7 +22,7 @@ class ComoEvitar extends StatefulWidget {
 }
 
 class _HomePageState extends State<ComoEvitar> {
-  String url = "http://www.pdf995.com/ComoEvitar/pdf.pdf";
+  String url = "https://drive.google.com/file/d/1z4Of0BTEGa9Fyo1VO-gN3kjpPoA0HBGC/view";
   String pdfasset = "assets/ComoEvitar.pdf";
   PDFDocument _doc;
   bool _loading;
@@ -37,7 +37,7 @@ class _HomePageState extends State<ComoEvitar> {
     setState(() {
       _loading = true;
     });
-    final doc = await PDFDocument.fromURL(url);
+    final doc = await PDFDocument.fromAsset(pdfasset);
     setState(() {
       _doc=doc;
       _loading = false;

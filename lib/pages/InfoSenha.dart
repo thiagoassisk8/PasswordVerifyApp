@@ -22,7 +22,7 @@ class InfoSenha extends StatefulWidget {
 }
 
 class _HomePageState extends State<InfoSenha> {
-  String url = "http://www.pdf995.com/InfoSenha/pdf.pdf";
+  String url = "https://drive.google.com/file/d/1kPpM7mcNTbs7VYOXBh7TqLDh4-_ADueC/view";
   String pdfasset = "assets/InfoSenha.pdf";
   PDFDocument _doc;
   bool _loading;
@@ -37,7 +37,7 @@ class _HomePageState extends State<InfoSenha> {
     setState(() {
       _loading = true;
     });
-    final doc = await PDFDocument.fromURL(url);
+    final doc = await PDFDocument.fromAsset(pdfasset);
     setState(() {
       _doc=doc;
       _loading = false;

@@ -22,7 +22,7 @@ class InfoRede extends StatefulWidget {
 }
 
 class _HomePageState extends State<InfoRede> {
-  String url = "http://www.pdf995.com/InfoRedes/pdf.pdf";
+  String url = "https://drive.google.com/file/d/1WnF1ORsvVDqjiczc2qMSgnKrhCYjIoCD/view";
   String pdfasset = "assets/InfoRedes.pdf";
   PDFDocument _doc;
   bool _loading;
@@ -37,7 +37,7 @@ class _HomePageState extends State<InfoRede> {
     setState(() {
       _loading = true;
     });
-    final doc = await PDFDocument.fromURL(url);
+    final doc = await PDFDocument.fromAsset(pdfasset);
     setState(() {
       _doc=doc;
       _loading = false;

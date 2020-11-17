@@ -5,6 +5,9 @@ INJECTED from C:\Users\victo\AndroidStudioProjects\Mariath\PasswordVerifyApp\and
 INJECTED from C:\Users\victo\AndroidStudioProjects\Mariath\PasswordVerifyApp\android\app\src\main\AndroidManifest.xml:1:1-32:12
 INJECTED from C:\Users\victo\AndroidStudioProjects\Mariath\PasswordVerifyApp\android\app\src\main\AndroidManifest.xml:1:1-32:12
 MERGED from C:\Users\victo\AndroidStudioProjects\Mariath\PasswordVerifyApp\android\app\src\main\AndroidManifest.xml:1:1-32:12
+MERGED from [:flutter_plugin_pdf_viewer] C:\Users\victo\AndroidStudioProjects\Mariath\PasswordVerifyApp\build\flutter_plugin_pdf_viewer\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:sqflite] C:\Users\victo\AndroidStudioProjects\Mariath\PasswordVerifyApp\build\sqflite\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:path_provider] C:\Users\victo\AndroidStudioProjects\Mariath\PasswordVerifyApp\build\path_provider\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\victo\.gradle\caches\transforms-2\files-2.1\1b5eae473140803c7bb849f04a6b6c90\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.activity:activity:1.0.0] C:\Users\victo\.gradle\caches\transforms-2\files-2.1\44f03382d3b9b8379b1bbf00604be003\activity-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\victo\.gradle\caches\transforms-2\files-2.1\65307e0737b32e2ae03e0c5db3a3817e\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -83,6 +86,12 @@ uses-sdk
 INJECTED from C:\Users\victo\AndroidStudioProjects\Mariath\PasswordVerifyApp\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\victo\AndroidStudioProjects\Mariath\PasswordVerifyApp\android\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\victo\AndroidStudioProjects\Mariath\PasswordVerifyApp\android\app\src\main\AndroidManifest.xml
+MERGED from [:flutter_plugin_pdf_viewer] C:\Users\victo\AndroidStudioProjects\Mariath\PasswordVerifyApp\build\flutter_plugin_pdf_viewer\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:flutter_plugin_pdf_viewer] C:\Users\victo\AndroidStudioProjects\Mariath\PasswordVerifyApp\build\flutter_plugin_pdf_viewer\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:sqflite] C:\Users\victo\AndroidStudioProjects\Mariath\PasswordVerifyApp\build\sqflite\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:sqflite] C:\Users\victo\AndroidStudioProjects\Mariath\PasswordVerifyApp\build\sqflite\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:path_provider] C:\Users\victo\AndroidStudioProjects\Mariath\PasswordVerifyApp\build\path_provider\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:path_provider] C:\Users\victo\AndroidStudioProjects\Mariath\PasswordVerifyApp\build\path_provider\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\victo\.gradle\caches\transforms-2\files-2.1\1b5eae473140803c7bb849f04a6b6c90\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\victo\.gradle\caches\transforms-2\files-2.1\1b5eae473140803c7bb849f04a6b6c90\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.activity:activity:1.0.0] C:\Users\victo\.gradle\caches\transforms-2\files-2.1\44f03382d3b9b8379b1bbf00604be003\activity-1.0.0\AndroidManifest.xml:20:5-22:41

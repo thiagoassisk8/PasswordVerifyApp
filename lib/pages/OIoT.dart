@@ -22,7 +22,7 @@ class Info1 extends StatefulWidget {
 }
 
 class _HomePageState extends State<Info1> {
-  String url = "http://www.pdf995.com/IoT/pdf.pdf";
+  String url = "https://drive.google.com/file/d/10kVvC2mnvkfkgxiReHous3a10Gw8Xk_E/view";
   String pdfasset = "assets/IoT.pdf";
   PDFDocument _doc;
   bool _loading;
@@ -37,7 +37,7 @@ class _HomePageState extends State<Info1> {
     setState(() {
       _loading = true;
     });
-    final doc = await PDFDocument.fromURL(url);
+    final doc = await PDFDocument.fromAsset(pdfasset);
     setState(() {
       _doc=doc;
       _loading = false;

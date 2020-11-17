@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/thiago/AndroidStudioProjects/verificadorsenha/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-lv/values-lv.xml",
+            "outputFile": "C:\\Users\\victo\\AndroidStudioProjects\\PasswordVerifyApp\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-lv\\values-lv.xml",
             "map": [
                 {
-                    "source": "/home/thiago/.gradle/caches/transforms-2/files-2.1/3a652ea792423f8e7877aaa28d4707d7/core-1.1.0/res/values-lv/values-lv.xml",
+                    "source": "C:\\Users\\victo\\.gradle\\caches\\transforms-2\\files-2.1\\3a652ea792423f8e7877aaa28d4707d7\\core-1.1.0\\res\\values-lv\\values-lv.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

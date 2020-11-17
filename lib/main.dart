@@ -1,9 +1,14 @@
 import 'package:flutter/material.dart';
+import 'package:sidebar_animation/pages/Info1.dart';
 import './component/sign_in_form.dart';
 
-void main() => runApp(MyApp());
+import 'package:flutter_bloc/flutter_bloc.dart';
 
-class MyApp extends StatelessWidget {
+
+void main() => runApp(Testesenha());
+
+
+class Testesenha extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -35,6 +40,17 @@ class _MyHomePageState extends State<MyHomePage> {
         title: Text('Verificador de Senha',textScaleFactor: 1.2, style: TextStyle(color: Colors.white,fontWeight: FontWeight.bold)),
         centerTitle: true,
         backgroundColor: Colors.blue[800],
+        leading: GestureDetector(
+          onTap: () {Navigator.push(
+              context,
+              MaterialPageRoute(builder: (context) => Info1()));},
+          child: Icon(
+            Icons.info_outline,
+            size: 36.0,
+            color: Colors.white,
+
+          ),
+        ),
 
       ),
       body: Center(

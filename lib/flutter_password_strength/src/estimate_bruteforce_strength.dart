@@ -1,10 +1,13 @@
-
+/*
+ * Author : Julien Scholz
+ * https://github.com/Pikaju/PasswordStrength
+ */
 import 'dart:math';
 
 double estimateBruteforceStrength(String password) {
   if (password.isEmpty) return 0.0;
 
-  // Chegecagem do tipo de caracter
+  // Check which types of characters are used and create an opinionated bonus.
   double charsetBonus;
   if (RegExp(r'^[a-z]*$').hasMatch(password)) {
     charsetBonus = 1.0;

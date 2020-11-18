@@ -22,7 +22,7 @@ class _SignInFormState extends State<SignInForm> {
               Text("Critérios de força da senha são os seguintes:\n"
                   "° Mínimo de 10 caracteres \n"
                   "° Letras maiúsculas\n"
-                  "° Caráter Especial (!@#&*)\n"
+                  "° Caractere Especial (!@#&*)\n"
                   "° Numerais (0-9)\n"
                   "° Letras minúsculas\n",
                   style: TextStyle(

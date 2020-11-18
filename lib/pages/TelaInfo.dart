@@ -98,7 +98,7 @@ class Telainf extends StatefulWidget {
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: <Widget>[
                             Text(
-                              'Informações sobre Redes',
+                              'Segurança de Redes',
                               style: TextStyle(
                                 fontSize: 20,
                                 fontWeight: FontWeight.w700,

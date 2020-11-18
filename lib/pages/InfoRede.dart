@@ -47,7 +47,7 @@ class _HomePageState extends State<InfoRede> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text("Informações sobre redes"),),
+      appBar: AppBar(title: Text("Segurança de redes"),),
       body: _loading ? Center(child: CircularProgressIndicator(),) : PDFViewer(document: _doc,
         indicatorBackground: Colors.blue[900],
         // showIndicator: false,
